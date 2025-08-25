@@ -1,0 +1,293 @@
+15:37:35.71 [INFO] pantsd 2.27.0 running with PID: 86488
+15:37:35.77 [INFO] handling request: `init`
+15:37:36.08 [INFO] request completed: `init`
+15:38:43.06 [INFO] notify invalidation: cleared 1 and dirtied 4 nodes for: {"docker_dynamic_labels", ""}
+15:38:55.96 [INFO] Extending leases
+15:38:55.96 [INFO] Done extending leases
+15:39:24.47 [INFO] notify invalidation: cleared 1 and dirtied 4 nodes for: {"pants.toml"}
+15:39:24.47 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml"}
+15:39:24.47 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml"}
+15:39:24.47 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml"}
+15:39:24.48 [ERROR] saw filesystem changes covered by invalidation globs: SnapshotDiff(our_unique_files=(), our_unique_dirs=(), their_unique_files=(), their_unique_dirs=(), changed_files=('pants.toml',)). terminating the daemon.
+15:39:24.48 [INFO] notify invalidation: cleared 2 and dirtied 4 nodes for: {"", "pants.toml"}
+15:39:24.48 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"", "pants.toml"}
+15:39:24.73 [ERROR] service failure for <pants.pantsd.service.scheduler_service.SchedulerService object at 0x7583317f8e10>.
+15:39:24.73 [INFO] Waiting for ongoing runs to complete before exiting...
+15:39:24.73 [INFO] Server exiting with Ok(())
+15:39:24.73 [INFO] Waiting for Sessions to complete before exiting...
+15:39:24.73 [INFO] Waiting for shutdown of: ["scheduler_service_session", "store_gc_service_session"]
+15:39:24.73 [INFO] Shutdown completed: "scheduler_service_session"
+15:39:24.73 [INFO] Shutdown completed: "store_gc_service_session"
+15:39:24.73 [INFO] Exiting pantsd
+15:39:24.73 [WARN] File watcher exiting with: The watcher was shut down.
+15:39:24.79 [WARN] File watcher exiting with: The watcher was shut down.
+15:42:22.32 [INFO] pantsd 2.27.0 running with PID: 88231
+15:42:22.37 [INFO] handling request: `package ::`
+15:42:22.87 [INFO] request completed: `package ::`
+15:42:49.77 [INFO] notify invalidation: cleared 1 and dirtied 55 nodes for: {"docker_dynamic_labels/BUILD"}
+15:42:49.77 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"docker_dynamic_labels/BUILD"}
+15:42:49.77 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"docker_dynamic_labels/BUILD"}
+15:42:49.77 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"docker_dynamic_labels/BUILD"}
+15:42:49.77 [INFO] notify invalidation: cleared 1 and dirtied 64 nodes for: {"docker_dynamic_labels/BUILD", "docker_dynamic_labels"}
+15:42:49.77 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"docker_dynamic_labels/BUILD", "docker_dynamic_labels"}
+15:43:05.16 [INFO] notify invalidation: cleared 1 and dirtied 16 nodes for: {"docker_dynamic_labels/Dockerfile"}
+15:43:05.16 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"docker_dynamic_labels/Dockerfile"}
+15:43:05.16 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"docker_dynamic_labels/Dockerfile"}
+15:43:05.16 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"docker_dynamic_labels/Dockerfile"}
+15:43:05.17 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"docker_dynamic_labels", "docker_dynamic_labels/Dockerfile"}
+15:43:05.17 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"docker_dynamic_labels", "docker_dynamic_labels/Dockerfile"}
+15:43:14.93 [INFO] notify invalidation: cleared 1 and dirtied 16 nodes for: {"docker_dynamic_labels/Dockerfile.base"}
+15:43:14.93 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"docker_dynamic_labels/Dockerfile.base"}
+15:43:14.93 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"docker_dynamic_labels/Dockerfile.base"}
+15:43:14.93 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"docker_dynamic_labels/Dockerfile.base"}
+15:43:14.94 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"docker_dynamic_labels", "docker_dynamic_labels/Dockerfile.base"}
+15:43:14.94 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"docker_dynamic_labels", "docker_dynamic_labels/Dockerfile.base"}
+15:43:16.52 [INFO] handling request: `package ::`
+15:43:42.76 [INFO] Extending leases
+15:43:42.77 [INFO] Done extending leases
+15:44:08.50 [INFO] notify invalidation: cleared 1 and dirtied 77 nodes for: {"", ".tmpimrwnQ.hardlink_canary"}
+15:44:08.50 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {".tmpimrwnQ.hardlink_canary", ""}
+15:44:08.51 [INFO] request completed: `package ::`
+15:45:02.77 [INFO] Extending leases
+15:45:02.77 [INFO] Done extending leases
+15:45:18.77 [INFO] notify invalidation: cleared 1 and dirtied 57 nodes for: {"docker_dynamic_labels/BUILD"}
+15:45:18.77 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"docker_dynamic_labels/BUILD"}
+15:45:18.77 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"docker_dynamic_labels/BUILD"}
+15:45:18.77 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"docker_dynamic_labels/BUILD"}
+15:45:18.78 [INFO] notify invalidation: cleared 1 and dirtied 66 nodes for: {"docker_dynamic_labels", "docker_dynamic_labels/BUILD"}
+15:45:18.78 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"docker_dynamic_labels", "docker_dynamic_labels/BUILD"}
+15:46:16.41 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"docker_dynamic_labels/BUILD"}
+15:46:16.41 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"docker_dynamic_labels/BUILD"}
+15:46:16.41 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"docker_dynamic_labels/BUILD"}
+15:46:16.41 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"docker_dynamic_labels/BUILD"}
+15:46:16.41 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"docker_dynamic_labels", "docker_dynamic_labels/BUILD"}
+15:46:16.41 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"docker_dynamic_labels/BUILD", "docker_dynamic_labels"}
+15:46:18.98 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"docker_dynamic_labels/BUILD"}
+15:46:18.98 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"docker_dynamic_labels/BUILD"}
+15:46:18.98 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"docker_dynamic_labels/BUILD"}
+15:46:18.98 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"docker_dynamic_labels/BUILD"}
+15:46:18.99 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"docker_dynamic_labels", "docker_dynamic_labels/BUILD"}
+15:46:18.99 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"docker_dynamic_labels/BUILD", "docker_dynamic_labels"}
+15:46:22.77 [INFO] Extending leases
+15:46:22.77 [INFO] Done extending leases
+15:46:39.31 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"docker_dynamic_labels/BUILD"}
+15:46:39.31 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"docker_dynamic_labels/BUILD"}
+15:46:39.31 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"docker_dynamic_labels/BUILD"}
+15:46:39.31 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"docker_dynamic_labels/BUILD"}
+15:46:39.31 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"docker_dynamic_labels/BUILD", "docker_dynamic_labels"}
+15:46:39.31 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"docker_dynamic_labels/BUILD", "docker_dynamic_labels"}
+15:46:42.58 [INFO] handling request: `package ::`
+15:46:42.72 [INFO] request completed: `package ::`
+15:47:00.21 [INFO] notify invalidation: cleared 1 and dirtied 59 nodes for: {"docker_dynamic_labels/BUILD"}
+15:47:00.21 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"docker_dynamic_labels/BUILD"}
+15:47:00.21 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"docker_dynamic_labels/BUILD"}
+15:47:00.21 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"docker_dynamic_labels/BUILD"}
+15:47:00.21 [INFO] notify invalidation: cleared 1 and dirtied 68 nodes for: {"docker_dynamic_labels/BUILD", "docker_dynamic_labels"}
+15:47:00.21 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"docker_dynamic_labels", "docker_dynamic_labels/BUILD"}
+15:47:02.69 [INFO] handling request: `package ::`
+15:47:02.78 [INFO] request completed: `package ::`
+15:47:21.93 [INFO] notify invalidation: cleared 1 and dirtied 61 nodes for: {"docker_dynamic_labels/BUILD"}
+15:47:21.93 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"docker_dynamic_labels/BUILD"}
+15:47:21.93 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"docker_dynamic_labels/BUILD"}
+15:47:21.93 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"docker_dynamic_labels/BUILD"}
+15:47:21.93 [INFO] notify invalidation: cleared 1 and dirtied 70 nodes for: {"docker_dynamic_labels", "docker_dynamic_labels/BUILD"}
+15:47:21.93 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"docker_dynamic_labels", "docker_dynamic_labels/BUILD"}
+15:47:42.77 [INFO] Extending leases
+15:47:42.78 [INFO] Done extending leases
+15:48:20.90 [INFO] notify invalidation: cleared 1 and dirtied 4 nodes for: {"pants.toml"}
+15:48:20.90 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml"}
+15:48:20.90 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml"}
+15:48:20.90 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml"}
+15:48:20.90 [ERROR] saw filesystem changes covered by invalidation globs: SnapshotDiff(our_unique_files=(), our_unique_dirs=(), their_unique_files=(), their_unique_dirs=(), changed_files=('pants.toml',)). terminating the daemon.
+15:48:20.90 [INFO] notify invalidation: cleared 2 and dirtied 83 nodes for: {"pants.toml", ""}
+15:48:20.90 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml", ""}
+15:48:21.36 [ERROR] service failure for <pants.pantsd.service.scheduler_service.SchedulerService object at 0x79fb377f7c50>.
+15:48:21.36 [INFO] Waiting for ongoing runs to complete before exiting...
+15:48:21.36 [INFO] Server exiting with Ok(())
+15:48:21.36 [INFO] Waiting for Sessions to complete before exiting...
+15:48:21.36 [INFO] Waiting for shutdown of: ["scheduler_service_session", "store_gc_service_session", "pants_run_2025_08_25_15_42_22_792_5770005b20894d0ea6f9632e28aa1fbf", "pants_run_2025_08_25_15_43_16_592_fd8ce98ccb254debb8a78c9d065e6da5", "pants_run_2025_08_25_15_46_42_649_a84e42bc43b648319194adde6e7442c6", "pants_run_2025_08_25_15_47_02_754_d5673c334d014de4b38e3a4ee2a055a7"]
+15:48:21.36 [INFO] Shutdown completed: "scheduler_service_session"
+15:48:21.36 [INFO] Shutdown completed: "store_gc_service_session"
+15:48:21.36 [INFO] Shutdown completed: "pants_run_2025_08_25_15_42_22_792_5770005b20894d0ea6f9632e28aa1fbf"
+15:48:21.36 [INFO] Shutdown completed: "pants_run_2025_08_25_15_43_16_592_fd8ce98ccb254debb8a78c9d065e6da5"
+15:48:21.36 [INFO] Shutdown completed: "pants_run_2025_08_25_15_46_42_649_a84e42bc43b648319194adde6e7442c6"
+15:48:21.36 [INFO] Shutdown completed: "pants_run_2025_08_25_15_47_02_754_d5673c334d014de4b38e3a4ee2a055a7"
+15:48:21.37 [INFO] Exiting pantsd
+15:48:21.37 [WARN] File watcher exiting with: The watcher was shut down.
+15:48:29.25 [INFO] pantsd 2.27.0 running with PID: 96105
+15:48:29.32 [INFO] handling request: `package ::`
+15:48:29.78 [INFO] request completed: `package ::`
+15:48:33.69 [INFO] notify invalidation: cleared 1 and dirtied 4 nodes for: {"pants.toml"}
+15:48:33.69 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml"}
+15:48:33.69 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml"}
+15:48:33.69 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml"}
+15:48:33.69 [INFO] notify invalidation: cleared 2 and dirtied 25 nodes for: {"", "pants.toml"}
+15:48:33.69 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"", "pants.toml"}
+15:48:51.60 [INFO] notify invalidation: cleared 1 and dirtied 15 nodes for: {"docker_dynamic_labels/BUILD"}
+15:48:51.60 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"docker_dynamic_labels/BUILD"}
+15:48:51.60 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"docker_dynamic_labels/BUILD"}
+15:48:51.60 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"docker_dynamic_labels/BUILD"}
+15:48:51.60 [INFO] notify invalidation: cleared 1 and dirtied 17 nodes for: {"docker_dynamic_labels", "docker_dynamic_labels/BUILD"}
+15:48:51.60 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"docker_dynamic_labels", "docker_dynamic_labels/BUILD"}
+15:48:53.37 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"docker_dynamic_labels/BUILD"}
+15:48:53.37 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"docker_dynamic_labels/BUILD"}
+15:48:53.37 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"docker_dynamic_labels/BUILD"}
+15:48:53.37 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"docker_dynamic_labels/BUILD"}
+15:48:53.38 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"docker_dynamic_labels/BUILD", "docker_dynamic_labels"}
+15:48:53.38 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"docker_dynamic_labels/BUILD", "docker_dynamic_labels"}
+15:48:54.81 [INFO] handling request: `package ::`
+15:48:55.91 [INFO] notify invalidation: cleared 1 and dirtied 75 nodes for: {"", ".tmpVP8aUS.hardlink_canary"}
+15:48:55.91 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {".tmpVP8aUS.hardlink_canary", ""}
+15:48:55.91 [INFO] request completed: `package ::`
+15:49:05.01 [INFO] notify invalidation: cleared 1 and dirtied 57 nodes for: {"docker_dynamic_labels/BUILD"}
+15:49:05.01 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"docker_dynamic_labels/BUILD"}
+15:49:05.01 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"docker_dynamic_labels/BUILD"}
+15:49:05.01 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"docker_dynamic_labels/BUILD"}
+15:49:05.02 [INFO] notify invalidation: cleared 1 and dirtied 66 nodes for: {"docker_dynamic_labels", "docker_dynamic_labels/BUILD"}
+15:49:05.02 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"docker_dynamic_labels/BUILD", "docker_dynamic_labels"}
+15:49:49.71 [INFO] Extending leases
+15:49:49.71 [INFO] Done extending leases
+15:50:02.23 [INFO] notify invalidation: cleared 1 and dirtied 4 nodes for: {"pants.toml"}
+15:50:02.23 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml"}
+15:50:02.23 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml"}
+15:50:02.23 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml"}
+15:50:02.23 [ERROR] saw filesystem changes covered by invalidation globs: SnapshotDiff(our_unique_files=(), our_unique_dirs=(), their_unique_files=(), their_unique_dirs=(), changed_files=('pants.toml',)). terminating the daemon.
+15:50:02.23 [INFO] notify invalidation: cleared 2 and dirtied 77 nodes for: {"pants.toml", ""}
+15:50:02.23 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml", ""}
+15:50:02.26 [ERROR] service failure for <pants.pantsd.service.scheduler_service.SchedulerService object at 0x7f30867ef350>.
+15:50:02.26 [INFO] Waiting for ongoing runs to complete before exiting...
+15:50:02.26 [INFO] Server exiting with Ok(())
+15:50:02.26 [INFO] Waiting for Sessions to complete before exiting...
+15:50:02.26 [INFO] Waiting for shutdown of: ["scheduler_service_session", "store_gc_service_session", "pants_run_2025_08_25_15_48_29_741_3297064e73df401cae72b970177d2608", "pants_run_2025_08_25_15_48_54_889_0a134915a98e43769b5bf20de32c77d8"]
+15:50:02.26 [INFO] Shutdown completed: "scheduler_service_session"
+15:50:02.26 [INFO] Shutdown completed: "store_gc_service_session"
+15:50:02.26 [INFO] Shutdown completed: "pants_run_2025_08_25_15_48_29_741_3297064e73df401cae72b970177d2608"
+15:50:02.26 [INFO] Shutdown completed: "pants_run_2025_08_25_15_48_54_889_0a134915a98e43769b5bf20de32c77d8"
+15:50:02.26 [INFO] Exiting pantsd
+15:50:02.27 [WARN] File watcher exiting with: The watcher was shut down.
+15:50:36.02 [INFO] pantsd 2.27.0 running with PID: 97398
+15:50:36.03 [INFO] handling request: `package ::`
+15:50:37.49 [INFO] notify invalidation: cleared 1 and dirtied 73 nodes for: {"", ".tmpjcQ5oZ.hardlink_canary"}
+15:50:37.49 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {".tmpjcQ5oZ.hardlink_canary", ""}
+15:50:37.49 [INFO] request completed: `package ::`
+15:50:53.89 [INFO] handling request: `package ::`
+15:50:54.91 [INFO] request completed: `package ::`
+15:51:01.74 [INFO] handling request: `package ::`
+15:51:02.86 [INFO] request completed: `package ::`
+15:51:06.72 [INFO] handling request: `package ::`
+15:51:07.82 [INFO] request completed: `package ::`
+15:51:11.28 [INFO] handling request: `package ::`
+15:51:12.30 [INFO] request completed: `package ::`
+15:51:16.55 [INFO] handling request: `package ::`
+15:51:17.56 [INFO] request completed: `package ::`
+15:51:36.32 [INFO] handling request: `package ::`
+15:51:37.36 [INFO] request completed: `package ::`
+15:51:56.44 [INFO] Extending leases
+15:51:56.44 [INFO] Done extending leases
+15:53:16.44 [INFO] Extending leases
+15:53:16.44 [INFO] Done extending leases
+15:53:19.14 [INFO] notify invalidation: cleared 1 and dirtied 111 nodes for: {"", "README.md"}
+15:53:19.14 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"README.md"}
+15:53:19.14 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"README.md", ""}
+15:53:19.14 [INFO] notify invalidation: cleared 1 and dirtied 111 nodes for: {"", ".git"}
+15:54:36.44 [INFO] Extending leases
+15:54:36.45 [INFO] Done extending leases
+15:55:56.45 [INFO] Extending leases
+15:55:56.45 [INFO] Done extending leases
+15:56:20.32 [INFO] handling request: `package ::`
+15:56:21.45 [INFO] request completed: `package ::`
+15:56:36.63 [INFO] notify invalidation: cleared 1 and dirtied 4 nodes for: {"pants.toml"}
+15:56:36.63 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml"}
+15:56:36.63 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml"}
+15:56:36.63 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml"}
+15:56:36.64 [ERROR] saw filesystem changes covered by invalidation globs: SnapshotDiff(our_unique_files=(), our_unique_dirs=(), their_unique_files=(), their_unique_dirs=(), changed_files=('pants.toml',)). terminating the daemon.
+15:56:36.64 [INFO] notify invalidation: cleared 2 and dirtied 117 nodes for: {"", "pants.toml"}
+15:56:36.64 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml", ""}
+15:56:37.07 [ERROR] service failure for <pants.pantsd.service.scheduler_service.SchedulerService object at 0x723b8d3e7110>.
+15:56:37.07 [INFO] Waiting for ongoing runs to complete before exiting...
+15:56:37.07 [INFO] Server exiting with Ok(())
+15:56:37.07 [INFO] Waiting for Sessions to complete before exiting...
+15:56:37.07 [INFO] Waiting for shutdown of: ["scheduler_service_session", "store_gc_service_session", "pants_run_2025_08_25_15_50_36_466_1ad68fa0aab4459fb36db1f93919bf7b", "pants_run_2025_08_25_15_50_53_962_501071465ff24aa296dfd13f719a1945", "pants_run_2025_08_25_15_51_01_814_f54bcd4239f84f69bfbd23c8611904ec", "pants_run_2025_08_25_15_51_06_792_807f05b301f64f7db351bb8bd0fbc318", "pants_run_2025_08_25_15_51_11_351_93af21f4c7384e81b8d1cbebcabef9d0", "pants_run_2025_08_25_15_51_16_617_40e0f75cee71474893fa75e9e588e7a1", "pants_run_2025_08_25_15_51_36_393_bb82c21bec11457bbcb6c7b19983f297", "pants_run_2025_08_25_15_56_20_391_4bb8c541130d4fd49b3edcbe26dab82e"]
+15:56:37.07 [INFO] Shutdown completed: "scheduler_service_session"
+15:56:37.07 [INFO] Shutdown completed: "store_gc_service_session"
+15:56:37.07 [INFO] Shutdown completed: "pants_run_2025_08_25_15_50_36_466_1ad68fa0aab4459fb36db1f93919bf7b"
+15:56:37.07 [INFO] Shutdown completed: "pants_run_2025_08_25_15_50_53_962_501071465ff24aa296dfd13f719a1945"
+15:56:37.07 [INFO] Shutdown completed: "pants_run_2025_08_25_15_51_01_814_f54bcd4239f84f69bfbd23c8611904ec"
+15:56:37.07 [INFO] Shutdown completed: "pants_run_2025_08_25_15_51_06_792_807f05b301f64f7db351bb8bd0fbc318"
+15:56:37.07 [INFO] Shutdown completed: "pants_run_2025_08_25_15_51_11_351_93af21f4c7384e81b8d1cbebcabef9d0"
+15:56:37.07 [INFO] Shutdown completed: "pants_run_2025_08_25_15_51_16_617_40e0f75cee71474893fa75e9e588e7a1"
+15:56:37.07 [INFO] Shutdown completed: "pants_run_2025_08_25_15_51_36_393_bb82c21bec11457bbcb6c7b19983f297"
+15:56:37.07 [INFO] Shutdown completed: "pants_run_2025_08_25_15_56_20_391_4bb8c541130d4fd49b3edcbe26dab82e"
+15:56:37.08 [INFO] Exiting pantsd
+15:56:37.08 [WARN] File watcher exiting with: The watcher was shut down.
+15:56:43.54 [INFO] pantsd 2.27.0 running with PID: 102265
+15:56:43.61 [INFO] handling request: `package ::`
+15:56:45.05 [INFO] notify invalidation: cleared 1 and dirtied 73 nodes for: {"", ".tmpxKA7bC.hardlink_canary"}
+15:56:45.05 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"", ".tmpxKA7bC.hardlink_canary"}
+15:56:45.05 [INFO] request completed: `package ::`
+15:56:46.33 [INFO] handling request: `package ::`
+15:56:47.29 [INFO] request completed: `package ::`
+15:57:17.02 [INFO] notify invalidation: cleared 1 and dirtied 70 nodes for: {"docker_dynamic_labels", "docker_dynamic_labels/README.md"}
+15:57:17.02 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"docker_dynamic_labels", "docker_dynamic_labels/README.md"}
+15:58:04.01 [INFO] Extending leases
+15:58:04.02 [INFO] Done extending leases
+15:59:24.02 [INFO] Extending leases
+15:59:24.02 [INFO] Done extending leases
+16:00:44.02 [INFO] Extending leases
+16:00:44.02 [INFO] Done extending leases
+16:02:04.02 [INFO] Extending leases
+16:02:04.03 [INFO] Done extending leases
+16:02:44.33 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"docker_dynamic_labels/README.md"}
+16:02:44.33 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"docker_dynamic_labels/README.md"}
+16:02:44.34 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"docker_dynamic_labels", "docker_dynamic_labels/README.md"}
+16:02:51.14 [INFO] handling request: `package ::`
+16:02:52.19 [INFO] request completed: `package ::`
+16:02:56.95 [INFO] handling request: `package ::`
+16:02:58.10 [INFO] request completed: `package ::`
+16:03:24.03 [INFO] Extending leases
+16:03:24.03 [INFO] Done extending leases
+16:03:30.97 [INFO] handling request: `package ::`
+16:03:32.06 [INFO] request completed: `package ::`
+16:04:44.03 [INFO] Extending leases
+16:04:44.03 [INFO] Done extending leases
+16:06:04.04 [INFO] Extending leases
+16:06:04.04 [INFO] Done extending leases
+16:07:19.89 [INFO] notify invalidation: cleared 1 and dirtied 4 nodes for: {"pants.toml"}
+16:07:19.89 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml"}
+16:07:19.89 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml"}
+16:07:19.89 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml"}
+16:07:19.89 [ERROR] saw filesystem changes covered by invalidation globs: SnapshotDiff(our_unique_files=(), our_unique_dirs=(), their_unique_files=(), their_unique_dirs=(), changed_files=('pants.toml',)). terminating the daemon.
+16:07:19.89 [INFO] notify invalidation: cleared 2 and dirtied 91 nodes for: {"", "pants.toml"}
+16:07:19.89 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml", ""}
+16:07:20.62 [ERROR] service failure for <pants.pantsd.service.scheduler_service.SchedulerService object at 0x7fd6ee534b10>.
+16:07:20.62 [INFO] Waiting for ongoing runs to complete before exiting...
+16:07:20.62 [INFO] Server exiting with Ok(())
+16:07:20.62 [INFO] Waiting for Sessions to complete before exiting...
+16:07:20.62 [INFO] Waiting for shutdown of: ["scheduler_service_session", "store_gc_service_session", "pants_run_2025_08_25_15_56_44_43_e6dde623b1fa422ab037e1079667b1df", "pants_run_2025_08_25_15_56_46_396_8464faa10a944f9cb92b14944eb27892", "pants_run_2025_08_25_16_02_51_214_fab0bac4eb734d95a8d447aedb72ee81", "pants_run_2025_08_25_16_02_57_20_87d96b515788487d965ca56fea90c914", "pants_run_2025_08_25_16_03_31_37_db77e22c302a485a998dfce4affcb1bc"]
+16:07:20.62 [INFO] Shutdown completed: "scheduler_service_session"
+16:07:20.62 [INFO] Shutdown completed: "store_gc_service_session"
+16:07:20.62 [INFO] Shutdown completed: "pants_run_2025_08_25_15_56_44_43_e6dde623b1fa422ab037e1079667b1df"
+16:07:20.62 [INFO] Shutdown completed: "pants_run_2025_08_25_15_56_46_396_8464faa10a944f9cb92b14944eb27892"
+16:07:20.62 [INFO] Shutdown completed: "pants_run_2025_08_25_16_02_51_214_fab0bac4eb734d95a8d447aedb72ee81"
+16:07:20.62 [INFO] Shutdown completed: "pants_run_2025_08_25_16_02_57_20_87d96b515788487d965ca56fea90c914"
+16:07:20.62 [INFO] Shutdown completed: "pants_run_2025_08_25_16_03_31_37_db77e22c302a485a998dfce4affcb1bc"
+16:07:20.62 [INFO] Exiting pantsd
+16:07:20.62 [WARN] File watcher exiting with: The watcher was shut down.
+16:07:36.25 [INFO] pantsd 2.27.0 running with PID: 107543
+16:07:36.35 [INFO] handling request: `package ::`
+16:07:37.68 [INFO] notify invalidation: cleared 1 and dirtied 73 nodes for: {"", ".tmpDgADIa.hardlink_canary"}
+16:07:37.68 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"", ".tmpDgADIa.hardlink_canary"}
+16:07:37.68 [INFO] request completed: `package ::`
+16:07:42.59 [INFO] handling request: `package ::`
+16:07:43.18 [INFO] request completed: `package ::`
+16:08:56.75 [INFO] Extending leases
+16:08:56.75 [INFO] Done extending leases
+16:10:16.75 [INFO] Extending leases
+16:10:16.76 [INFO] Done extending leases
+16:11:00.06 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"docker_dynamic_labels/README.md"}
+16:11:00.06 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"docker_dynamic_labels/README.md"}
+16:11:00.06 [INFO] notify invalidation: cleared 1 and dirtied 66 nodes for: {"docker_dynamic_labels", "docker_dynamic_labels/README.md"}
+16:11:36.76 [INFO] Extending leases
+16:11:36.76 [INFO] Done extending leases
+16:12:56.76 [INFO] Extending leases
+16:12:56.76 [INFO] Done extending leases

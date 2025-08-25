@@ -1,0 +1,16 @@
+16:03:31.57 [INFO] Completed: Building docker image main:efbf3dfcebd918d0a8c0905b3905cf532cffac4b174e96d19b664c788a746be6 +1 additional tag.
+16:03:31.57 [INFO] Completed: Scheduling: Building docker image main:efbf3dfcebd918d0a8c0905b3905cf532cffac4b174e96d19b664c788a746be6 +1 additional tag.
+16:03:31.65 [INFO] Completed: Building docker image base:289d383d39bc93699df66de3398a41ab7b236d6ee9b73ded0e825dfe8e3423e8 +1 additional tag.
+16:03:31.65 [INFO] Completed: Scheduling: Building docker image base:289d383d39bc93699df66de3398a41ab7b236d6ee9b73ded0e825dfe8e3423e8 +1 additional tag.
+16:03:32.05 [INFO] Completed: Building docker image main:032f12b36d315f0805db8126fe0bcb1b1810d22b7b45e8bc8c01518a39a2a4d4 +1 additional tag.
+16:03:32.05 [INFO] Completed: Scheduling: Building docker image main:032f12b36d315f0805db8126fe0bcb1b1810d22b7b45e8bc8c01518a39a2a4d4 +1 additional tag.
+16:03:32.06 [INFO] Wrote dist/docker_dynamic_labels/base.docker-info.json
+Built docker images: 
+  * base:289d383d39bc93699df66de3398a41ab7b236d6ee9b73ded0e825dfe8e3423e8
+  * base:tag
+Docker image ID: sha256:23549b869d39bf4258b9f3d821d2baec52a1e2adbcef726da5aeb3e033e80938
+16:03:32.06 [INFO] Wrote dist/docker_dynamic_labels/main.docker-info.json
+Built docker images: 
+  * main:032f12b36d315f0805db8126fe0bcb1b1810d22b7b45e8bc8c01518a39a2a4d4
+  * main:tag
+Docker image ID: sha256:0cb4b405c783a8c70788b74fb7581578b4ab33db1a245f29c0ff8c0ea5e1edfe

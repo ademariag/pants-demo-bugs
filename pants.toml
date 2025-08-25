@@ -1,0 +1,15 @@
+[GLOBAL]
+pants_version = "2.27.0"
+
+backend_packages = [
+  "pants.backend.docker",
+]
+
+[docker]
+use_buildx = true
+publish_noninteractively = true
+build_verbose = false
+env_vars = [
+  "RANDOM_TAG",
+  "BUILDX_NO_DEFAULT_ATTESTATIONS",
+]
