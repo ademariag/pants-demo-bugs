@@ -1,7 +1,0 @@
-15:47:02.78 [31m[ERROR][0m 1 Exception encountered:
-
-Engine traceback:
-  in `package` goal
-
-InvalidFieldTypeException: The 'image_tags' field in target docker_dynamic_labels#__defaults__ must be an iterable of strings (e.g. a list of strings), but was `['{pants.hash}', None]` with type `list`.
-

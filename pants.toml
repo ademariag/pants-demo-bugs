@@ -1,15 +1,20 @@
 [GLOBAL]
-pants_version = "2.27.0"
+pants_version = "2.29.0.dev3"
 
 backend_packages = [
   "pants.backend.docker",
 ]
 
+[python]
+interpreter_constraints = ['>=3.10,<3.12']
+
+[dockerfile-parser]
+use_rust_parser = true
 [docker]
 use_buildx = true
 publish_noninteractively = true
 build_verbose = false
 env_vars = [
-  "RANDOM_TAG",
+  "RANDOM_TAG=random",
   "BUILDX_NO_DEFAULT_ATTESTATIONS",
 ]
